@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>刻意练习 | Derek&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/blogs/blogs/favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/blogs/assets/css/0.styles.4772688d.css" as="style"><link rel="preload" href="/blogs/assets/js/app.7d827f20.js" as="script"><link rel="preload" href="/blogs/assets/js/2.2efa6d08.js" as="script"><link rel="preload" href="/blogs/assets/js/24.864743b6.js" as="script"><link rel="prefetch" href="/blogs/assets/js/10.0e204dab.js"><link rel="prefetch" href="/blogs/assets/js/11.acf96497.js"><link rel="prefetch" href="/blogs/assets/js/12.0643a22b.js"><link rel="prefetch" href="/blogs/assets/js/13.ca8dd081.js"><link rel="prefetch" href="/blogs/assets/js/14.8bd7b5bd.js"><link rel="prefetch" href="/blogs/assets/js/15.dddb67ac.js"><link rel="prefetch" href="/blogs/assets/js/16.5242688e.js"><link rel="prefetch" href="/blogs/assets/js/17.f03cee5b.js"><link rel="prefetch" href="/blogs/assets/js/18.62a2e5df.js"><link rel="prefetch" href="/blogs/assets/js/19.4ed6e5ac.js"><link rel="prefetch" href="/blogs/assets/js/20.fe87e68d.js"><link rel="prefetch" href="/blogs/assets/js/21.1ca37d7d.js"><link rel="prefetch" href="/blogs/assets/js/22.45f9a0ab.js"><link rel="prefetch" href="/blogs/assets/js/23.5b67a25f.js"><link rel="prefetch" href="/blogs/assets/js/25.fbb19ce7.js"><link rel="prefetch" href="/blogs/assets/js/26.ae5b791b.js"><link rel="prefetch" href="/blogs/assets/js/27.e490a9f9.js"><link rel="prefetch" href="/blogs/assets/js/28.be291e07.js"><link rel="prefetch" href="/blogs/assets/js/29.a8e70b32.js"><link rel="prefetch" href="/blogs/assets/js/3.42c52160.js"><link rel="prefetch" href="/blogs/assets/js/30.54098e09.js"><link rel="prefetch" href="/blogs/assets/js/31.44b2519f.js"><link rel="prefetch" href="/blogs/assets/js/32.5700c00a.js"><link rel="prefetch" href="/blogs/assets/js/33.d2d52e2a.js"><link rel="prefetch" href="/blogs/assets/js/34.925f7e33.js"><link rel="prefetch" href="/blogs/assets/js/35.ea00a34f.js"><link rel="prefetch" href="/blogs/assets/js/36.8892caa6.js"><link rel="prefetch" href="/blogs/assets/js/37.ef15a63c.js"><link rel="prefetch" href="/blogs/assets/js/38.6d00dfc0.js"><link rel="prefetch" href="/blogs/assets/js/4.bd087c12.js"><link rel="prefetch" href="/blogs/assets/js/5.4e180a65.js"><link rel="prefetch" href="/blogs/assets/js/6.1ef65951.js"><link rel="prefetch" href="/blogs/assets/js/7.01575413.js"><link rel="prefetch" href="/blogs/assets/js/8.732510c7.js"><link rel="prefetch" href="/blogs/assets/js/9.8a6dd667.js">
+    <link rel="stylesheet" href="/blogs/assets/css/0.styles.4772688d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blogs/" class="home-link router-link-active"><img src="/blogs/blogs/favicon.ico" alt="Derek's blog" class="logo"> <span class="site-name can-hide">Derek's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blogs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/bcld/blogs/tree/master" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/docs/essayist/" class="nav-link">
+  随谈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/foundation/" class="nav-link router-link-active">
+  朝花夕拾
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/private/" class="nav-link">
+  私境
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/server/" class="nav-link">
+  后端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blogs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/bcld/blogs/tree/master" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/docs/essayist/" class="nav-link">
+  随谈
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/foundation/" class="nav-link router-link-active">
+  朝花夕拾
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/private/" class="nav-link">
+  私境
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/docs/server/" class="nav-link">
+  后端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>朝花夕拾</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/docs/foundation/分析与思考黄奇帆的复旦经济课.html" class="sidebar-link">分析与思考:黄奇帆的复旦经济课</a></li><li><a href="/blogs/docs/foundation/刻意练习.html" class="active sidebar-link">刻意练习</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blogs/docs/foundation/刻意练习.html#一万小时定律" class="sidebar-link">一万小时定律？</a></li><li class="sidebar-sub-header"><a href="/blogs/docs/foundation/刻意练习.html#隐性知识" class="sidebar-link">隐性知识</a></li><li class="sidebar-sub-header"><a href="/blogs/docs/foundation/刻意练习.html#天才是训练的产物" class="sidebar-link">天才是训练的产物</a></li><li class="sidebar-sub-header"><a href="/blogs/docs/foundation/刻意练习.html#学习新技能的常见路线" class="sidebar-link">学习新技能的常见路线</a></li><li class="sidebar-sub-header"><a href="/blogs/docs/foundation/刻意练习.html#刻意练习-2" class="sidebar-link">刻意练习</a></li></ul></li><li><a href="/blogs/docs/foundation/图解算法.html" class="sidebar-link">算法图解</a></li><li><a href="/blogs/docs/foundation/棉花帝国.html" class="sidebar-link">棉花帝国</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="刻意练习"><a href="#刻意练习" class="header-anchor">#</a> 刻意练习</h1> <h2 id="一万小时定律"><a href="#一万小时定律" class="header-anchor">#</a> 一万小时定律？</h2> <ol><li>不同领域的技能习得时间并不相同，不能一概而论。</li> <li>成功和时间并不完全成正比，且天赋不起决定性作用</li> <li>除了时间，还取决于练习的方法</li></ol> <blockquote><p>一粒沙子不是堆，两粒也不是，三粒也不是，那么9999粒也同样不是，所以1万小时的边界并不存在</p></blockquote> <h2 id="隐性知识"><a href="#隐性知识" class="header-anchor">#</a> 隐性知识</h2> <p>认知复杂性高(销售)和认知复杂性低(象棋)的学习差异很大程度上表现为隐性知识的多少和比重。</p> <ol><li>隐性知识需要在情境中学习寻找</li> <li>成年人最佳的学习方式并非独自练习，而是在情景中学习</li></ol> <h2 id="天才是训练的产物"><a href="#天才是训练的产物" class="header-anchor">#</a> 天才是训练的产物</h2> <p>研究大脑的人员发现（无论哪个年龄段的）大脑比我们想象中的更具有适应能力，莫扎特（还有很多例子）的大脑拥有完美音高的回路，是训练的产物，而非某些天生的基因。天才与我们的差别，可能是更多地利用了这一能力（大脑的适应能力）</p> <blockquote><p>往往家庭条件越好，父母越能抽出精力时间和金钱去教育孩子，则他们越早能利用大脑适应能力，塑造出老鼠的儿子会打洞的现象。其实也是属于后天的影响，而非天生如此。大体上，人生而平等。</p></blockquote> <ol><li>学习不是挖掘潜力的方式，可以发展这种潜力的方式，我们可以通过学习创造潜力。</li> <li>这种普遍有效提高水平的学习方法即为刻意练习。</li></ol> <blockquote><p>如我们将会看到的那样，天生的特征比许多人通常以为的，发挥的作用不但小得多，而且也有很大的不同。</p></blockquote> <h2 id="学习新技能的常见路线"><a href="#学习新技能的常见路线" class="header-anchor">#</a> 学习新技能的常见路线</h2> <ol><li>学习任何一种技能，通过一些知道慢慢达到可以接受的水平，并且可以自动化。</li> <li>往后不再走出舒适圈，并满足于当前的练习，几时再经过长时间练习，也很难有突破。</li> <li>“天真的练习”：基本只是反复做某件事，并指望只靠这种反复就能提高水平和表现。</li></ol> <h2 id="刻意练习-2"><a href="#刻意练习-2" class="header-anchor">#</a> 刻意练习</h2> <ol><li>走出舒适圈，困难即突破，走出舒适圈但又不至于偏离太远，以致于身心受伤，就像健身，你不可能一天做1w个俯卧撑去快速提升，这样只会由于短期压力而造成肌肉劳损被迫中断，更不利于长周期的执行。要充分利用大脑的适应能力。
+<ol><li>大脑实际上有无效的适应能力。</li> <li>大脑对于处于舒适区之外却离得不太远的“甜点”上的挑战，改变最为迅速。</li></ol></li> <li>遇到瓶颈怎么办？
+<ol><li>遇到障碍，最好的方法是从不同方向去尝试突破</li> <li>可能是动力不足——倦乏
+<ol><li>有意义的正面反馈是保持动机的关键之一，外在成就感</li> <li>内在的驱动力，不是为了赢得比赛，而是肉眼可见的突破自己，比昨天的自己更好，更强。</li> <li>内驱力往往比外单纯战胜别人更好，别人可能一开始对于自己来说高耸入云，也有利于个体良性竞争。</li></ol></li> <li>适当逼迫一下自己，譬如更短的时间。</li></ol></li> <li>注意技巧
+<ol><li>对于记忆力，有意义的记忆更重要，即常说的尽量不要死记硬背，国际象棋大师下盲棋不是因为培养了不可思议的记忆力，相反他们的记忆取决于场景，即记住的不是棋子在那个位置，而是为什么会在这个位置-----心理表征</li> <li>建立心理表征，有利于纵观全局，而又不失“局点”。
+<blockquote><p>建立心理表征有点类似于构建体系，明白知乎所以然，关联起来。而且熟能生巧。</p></blockquote></li> <li>在较短时间内投入百分百的努力来练习效果比更长时间只投入70%的努力效果更好。</li> <li>站在巨人的肩膀上：通过导师的指导，或者学习观察模拟领域内杰出人物的优点。</li> <li>关注每次可以改良的地方，并且纠正而非一味地重复，建立反馈（学生时代的错题集）</li></ol></li> <li>量变引起质变
+<blockquote><p>杰出人物的进展只在局外人看来才是重大进展，因为那些人并没有见证过每次那些微小的进展，而正是这些小小的进展，才累积成重大的飞跃。</p></blockquote></li></ol></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/16/2022, 10:55:21 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blogs/docs/foundation/分析与思考黄奇帆的复旦经济课.html" class="prev">
+        分析与思考:黄奇帆的复旦经济课
+      </a></span> <span class="next"><a href="/blogs/docs/foundation/图解算法.html">
+        算法图解
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><div></div></div></div>
+    <script src="/blogs/assets/js/app.7d827f20.js" defer></script><script src="/blogs/assets/js/2.2efa6d08.js" defer></script><script src="/blogs/assets/js/24.864743b6.js" defer></script>
+  </body>
+</html>
